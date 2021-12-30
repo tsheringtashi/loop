@@ -1,0 +1,7 @@
+for  in range(10):
+  if x % 2 == 0:
+     print(x)
+  else:
+      print("Even")
+      
+# output : 0, Even, 2, Even, 4, Even...
