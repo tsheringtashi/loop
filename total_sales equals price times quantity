@@ -1,0 +1,16 @@
+## For Loops
+
+prices = { "Calculus":50, "history":20, "magazine" :3}
+
+quantity = {"Calculus":2, "history":1, "magazine" :7}
+
+total_sales = 0
+
+for i in prices:
+
+  total_sales = total_sales +(prices[i] *quantity[i])
+  
+ print(total_sales)
+ 
+ 
+ 
